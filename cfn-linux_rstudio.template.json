@@ -46,7 +46,7 @@
 
   "Mappings" : {
     "AWSRegionArch2AMI" : {
-      "us-east-1"      : { "HVM64" : "ami-21630d36" }
+      "us-east-1"      : { "HVM64" : "ami-f2ee59e4" }
       
     }
 

@@ -18,6 +18,7 @@ The template creates the following resources:
   <li>R 2.11.1</li>
   <li>Security group with access to port tcp/22 for SSH</li>
   <li>Public IP</li>
+  <li>Login as ubuntu (also has sudo privileges)</li>
      
  </ul>
 
