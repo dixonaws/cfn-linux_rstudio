@@ -11,16 +11,17 @@ You can tear down a stack using the cloudformation CLI:
 Of course, you'll need to define your AWS credential in your profile, per http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
 The template creates the following resources:
-<ol type="1">
-<li>Linux with R Studio</li>
-  <ol type="a">
-  <li>Ubuntu 14.04</li>
+<ul>
+  <li>Linux with R Studio in us-east-1</li>
+  <li>Ubuntu 16.04</li>
   <li>RStudio 1.10</li>
   <li>R 2.11.1</li>
-  
-  </ol>
+  <li>Security group with access to port tcp/22 for SSH</li>
+  <li>Public IP</li>
+     
+ </ul>
 
 The only parameter supported is KeyName: the name of the private key that will be used to access the instances created by the template. This key must exist before running the template.
 <p>
 
-TODO: add puppet manifest to build Ubuntu AMI
+TODO: add puppet manifest to build Ubuntu AMI with R and R Studio installed
