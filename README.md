@@ -21,3 +21,6 @@ The template creates the following resources:
   </ol>
 
 The only parameter supported is KeyName: the name of the private key that will be used to access the instances created by the template. This key must exist before running the template.
+<p>
+
+TODO: add puppet manifest to build Ubuntu AMI
